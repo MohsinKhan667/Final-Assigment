@@ -1,0 +1,141 @@
+nav {
+    text-align: center;
+}
+
+.button-1 {
+    text-align: end;
+}
+
+
+.button-1>button {
+    border: 2px solid #FFAE00;
+    padding: 3px 30px;
+    color: #FFAE00;
+}
+
+.button-1>input {
+    text-align: center;
+    border: none;
+    font-weight: 500;
+}
+
+.media>input {
+    border: none;
+    width: 100px;
+}
+
+/* navbar complete */
+
+.section {
+    width: 100%;
+    height: 500px;
+    background-color: #FFAE00;
+}
+
+.section-text {
+    margin: 120px;
+    margin-left: 50px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.section-text>h1 {
+    line-height: 30px;
+
+}
+
+.section-text>span {
+    line-height: 60px;
+}
+
+.border-input {
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.border-input>input,
+.border-input>button {
+    margin: 10px 5px;
+}
+
+.btn>button {
+    border: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.border-input>button {
+    background-color: #FF7A7A;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+}
+
+.border {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.section-image {
+    width: 100%;
+    max-width: 390px;
+    margin-top: 240px;
+}
+
+.section-image>img {
+    width: 100%;
+}
+
+@media screen and (max-width: 990px) {
+    .section-text {
+        margin: 10px;
+    }
+
+    .border-input>input,
+    .border-input>button {
+        width: 100%;
+    }
+
+    .section-image {
+        margin-top: 280px; 
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .section-text {
+        margin: 10px;
+    }
+
+    .border-input>input,
+    .border-input>button {
+        width: 100%;
+    }
+
+    .section-image {
+        margin-top: 10px;
+    }
+
+    .section-image {
+        width: 100%;
+        max-width: 390px;
+        margin-top: 340px ;
+    }
+}
+
+
+.footer {
+    flex-wrap: wrap;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.footer>img {
+    margin: 5px;
+}
